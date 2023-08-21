@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en" >
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.rtl.min.css"
+    rel="stylesheet" integrity="sha384-PRrgQVJ8NNHGieOA1grGdCTIt4h21CzJs6SnWH4YMQ6G5F5+IEzOHz67L4SQaF0o" crossorigin="anonymous">
+
+    <link rel = "stylesheet" href="./css/main.css">
+    <title>Mi Primera Página Web</title>
+    </head>
+    <body>
+        <header class="container-fluid bg-dark d-flex justify-content-center">
+            <P class="text-light mb-0 p-2 fs-6 fw-bold" > Mi Primera Pagina Web</P>
+        </header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary p-3" id="menu">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <span class ="text- fs-1 fw-bold">Huellitas Felices</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" 
+                aria-controls="navbarSupportedContent" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+<!--En esta sección hay 3 enlaces en la barra de navigación que redireccionan a 3 websites diferentes.-->
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inspirados por: </a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="https://www.peta.org/">| Peta | </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.petalatino.com/">| Peta Latino | </a>
+                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.apasdem.org.mx/#:~:text=APASDEM%2C%20Agrupaciones%20por%20los%20Animales,violencia%20hacia%20los%20dem%C3%A1s%20animales.">| ASPASDEM | </a>
+                    </li>
+                    
+                </ul>
+                </div>
+            </div>
+            </nav>
+        <!--Slideshow carousel--> 
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-inerval="3000">
+                <img src="./img/imagen6.jpg" class="d-block w-100" alt="perrito 1">
+                </div>
+
+                <div class="carousel-item" data-bs-inerval="3000">
+                <img src="./img/imagen7.jpg" class="d-block w-100" alt="perrito 2">
+                </div>
+
+                <div class="carousel-item" data-bs-inerval="3000">
+                <img src="./img/imagen8.jpg" class="d-block w-100" alt="perrito 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+    
+        <!--Objetivo general-->
+        <section class="w-50 mx-auto text-center pt-4" id="inicio">
+            <h1 class="p-3 fs-1  border-top boder-3 text-primary"> Huellitas Felices </span></h1>
+            <p class="p-3 fs-5"><span> Esta pagina inició como un proyecto piloto por alumnos del 5° cuatrimestre de la 
+                Licenciatura de Ingeniería en Sistemas Computacionales de la Universidad del Sur, Plantel Cancún, Quintana Roo, México.
+                Tiene como objetivo general de fomentar el buen trato a los animales, brindando alimentos y agua a perros y 
+                gatos abandonados en la calle para que puedan ser saciados, y que la sociedad pueda concientizar esta acción 
+                para hacer de nuestra comunidad un lugar mejor, ayudando a los animalitos necesitados.
+            </p>
+            <legend>Nuestros objetivos especificos son: </legend>
+        </section>
+      
+        <!--Aqui señalo los objetivos especificos de la iniciativa-->
+        <section class="container-fluid">
+            
+            <div class="row w-75 mx-auto  servicio-fila">
+                <div class="col col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+                    <img src="./img/Image9.jpg" alt="Fomentar"
+                    width="180" height=160>
+                    <div>
+                        <h3 class="fs-5-bold my-4 px-4 pb-1">Fomentar</h3>
+                        <P class="px-4">Ya que muchos de ellos sufren de malos tratos, es muy importante convencer a las personas de ayudarlos y no maltratarlos.</P>
+                    </div>
+                </div>
+                <div class="col col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+                    <img src="./img/imagen5.jpg" alt="Concientizar"
+                    width="180" height=160>
+                    <div>
+                        <h3 class="fs-5-bold my-4 px-4 pb-1">Concientizar</h3>
+                        <P class="px-4">Acerca del abandono animal, y explicar por qué puede ser un problema para toda la comunidad.</P>
+                    </div>
+                </div>
+            </div>
+            <div class="row w-75 mx-auto  servicio-fila">
+                <div class="col col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+                    <img src="./img/imagen3.jpg" alt="Promover"
+                    width="180" height=160>
+                    <div>
+                        <h3 class="fs-5-bold my-4 px-4 pb-1">Promover </h3>
+                        <P class="px-4">La ayuda para proporcionarles alimentos y agua para que no tengan la necesidad de andar en los basureros.</P>
+                    </div>
+                </div>
+                <div class="col col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+                    <img src="./img/imagen4.jpg" alt="Persuadir"
+                    width="180" height=160>
+                    <div>
+                        <h3 class="fs-5-bold my-4 px-4 pb-1">Persuadir</h3>
+                        <P class="px-4">A la comunidad para que no compren mascotas caras, sino para que adopten una de la calle. </P>
+                    </div>
+                </div>
+                <form>
+                <h6 class="fs-6 my-4 px-4 pb-1">¿Te gustaría recibir noticias nuestras? Suscribete con tu correo electrónico </h6>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre Completo</label>
+                        <input type="text" class="form-control" >
+                      </div>
+                    <div class="mb-3 ">
+                      <label for="email" class="form-label">Correo Electronico</label>
+                      <input type="email" class="form-control" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">Nosotros no compartiremos tu información con terceros.</div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+            
+        </section>
+        
+        
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" 
+    crossorigin="anonymous"></script>
+
+    </body>
+</html>

@@ -1,0 +1,65 @@
+/*<!--------------------------------------------------------------------------
+--ENCABEZADO-
+-------------------------------------------------------------------------->*/
+body {
+
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    }
+    
+    #menu li > a {
+        font-size: 18px;
+        font-weight: bold;
+        color:black;
+    }
+    
+    #menu form> button {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    /*--------------------------------------------------------------------------
+    --Carrusel de imagenes--
+    -------------------------------------------------------------------------->*/
+    
+    .carousel-inner {
+        max-height:  50rem; 
+    }
+    
+    
+    /* --------------------------------------------------------------------------
+    -- Ajustes para pantallas anchas--
+    --------------------------------------------------------------------------->*/
+    @media( max-width:1200px){
+        #lcoal{
+            flex-wrap: wrap ;
+            padding-top: 30px;
+        }
+        .wrapper {
+            width: 90%;
+            margin:auto;
+            padding-top: 50px;
+        }
+    }
+    
+    /* --------------------------------------------------------------------------
+    -- Ajustes para pantallas pequeñas--
+    --------------------------------------------------------------------------->*/
+    
+    @media (max-width:768px){
+        #inicio {
+            width : 90% !important;
+        }
+        .servicio-fila {
+            width: 100% !important;
+            text-align: center;
+        }
+    }
+    
+    @media(max-width: 576px){
+        .icono-wrap{
+            flex-wrap: wrap;
+            justify-content: center !important;
+        }
+    }
+    
