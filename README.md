@@ -1,4 +1,4 @@
-# Proyectos del Primer Parcial
+# Proyectos del Primer y Segundo Parcial
 Ejercicios realizados durante el primer parcial del mes de Agosto del 2023, para la asignatura Programación Web.
 
 ![image](https://github.com/Bellezatabaskena/Prog_Web/assets/114634159/e6f38e98-a269-42b2-b9da-431aa8a8e907)
@@ -20,6 +20,8 @@ En este archivo se encontraran 3 ejercicios que se realizaron durante el mes de 
 - Mi Primera Página Web
 - Formulario de Control de Usuarios
 - Aplicación de Notas.
+- Indice
+- Sistema de Tickets
 
   
 ## Características
@@ -50,6 +52,11 @@ Se utiliza VS Code para el codigo y se utiliza el servidor XAMPP para visualizar
 - Aplicación de Notas
   
   ![image](https://github.com/Bellezatabaskena/Prog_Web/assets/114634159/36c82149-d949-4a96-940c-5998e838cf11)
+
+- Sistema de Tickets
+
+  ![image](https://github.com/Bellezatabaskena/Prog_Web/assets/114634159/a266c688-efa2-406a-91f1-fdfff840a79c)
+
 
 
 
