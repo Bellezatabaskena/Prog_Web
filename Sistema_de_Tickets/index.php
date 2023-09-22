@@ -52,8 +52,11 @@ background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+
         </div>
     </main>
     <footer>
+    <?php include 'Includes/footer.php'; ?>
         <!-- place footer here 
-    <?php // include 'includes/footer.php'; ?>
+        <?php
+    include("../../../Includes/footer.php");
+    ?>
   </footer>
   <!-- Bootstrap JavaScript Libraries -->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"

@@ -2,7 +2,7 @@
 //esto es exclusivo para probar recibimiento de datos del 
 //print_r($_POST);
 
-require('../../../../../Includes/db.php');
+require('../../../../Includes/db.php');
 
 $nombre=$_POST['nombre'];
 

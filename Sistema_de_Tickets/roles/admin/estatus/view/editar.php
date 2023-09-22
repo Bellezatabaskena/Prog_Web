@@ -1,5 +1,5 @@
 <?php
-require("../../../../../Includes/db.php");
+require("../../../../Includes/db.php");
 $id = $_GET['id'];
 $query = "SELECT * FROM estatus WHERE id_estatus = '$id'";
 $ejecutar = mysqli_query($connection, $query);
@@ -47,7 +47,7 @@ background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, F
                     <div class="card">
                         <div class="card-body">
                         <?php
-                        require("../../../../../Includes/db.php");
+                        require("../../../../Includes/db.php");
                         $id = $_GET['id'];
                         $query = "SELECT * FROM estatus WHERE id_estatus = '$id'";
                         $ejecutar = mysqli_query($connection, $query);

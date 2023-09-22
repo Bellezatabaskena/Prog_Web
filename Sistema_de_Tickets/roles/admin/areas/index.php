@@ -85,6 +85,9 @@ background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, F
       </div>
     </main>
     <footer>
+    <?php
+    include("../../../Includes/footer.php");
+    ?>
     <!-- place footer here -->
     </footer>
   <!-- Bootstrap JavaScript Libraries -->
