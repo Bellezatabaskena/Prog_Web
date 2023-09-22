@@ -87,9 +87,17 @@ Ejercicios realizados durante el segundo parcial del mes de Septiembre del 2023,
 
   ![image](https://github.com/Bellezatabaskena/Prog_Web/assets/114634159/fa8cd4d7-e422-45e8-b6bf-d0a4cc55b44e)
 
-
-
   ![image](https://github.com/Bellezatabaskena/Prog_Web/assets/114634159/6ab5255e-faca-43a1-b35a-812cfab8d851)
+
+-Actualización
+
+  ![image](https://github.com/Bellezatabaskena/Prog_Web/assets/114634159/3d5af0a2-9c85-4e37-b1b8-cb4134d7f395)
+
+  ![image](https://github.com/Bellezatabaskena/Prog_Web/assets/114634159/d2d4262a-19a1-419d-bbbb-1e0a3dcb0d55)
+
+  ![image](https://github.com/Bellezatabaskena/Prog_Web/assets/114634159/f32fb0a3-22a9-49b8-98e1-a9bc43985a93)
+
+
 
 
   
