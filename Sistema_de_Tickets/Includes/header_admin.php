@@ -35,9 +35,12 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-           Dropdown
-          </a>
-          <ul class="dropdown-menu">
+          Configuracion
+        </a>
+            <ul class="dropdown-menu">
+           
+            <li><a class="dropdown-item" href="../clientes/index.php">Clientes</a></li>
+            <li><a class="dropdown-item" href="../tickets/index.php">Tickets</a></li>
             <li><a class="dropdown-item" href="../areas/index.php">Areas</a></li>
             <li><a class="dropdown-item" href="../estatus/index.php">Estatus</a></li>
             <li><a class="dropdown-item" href="../nivel/index.php">Nivel</a></li>

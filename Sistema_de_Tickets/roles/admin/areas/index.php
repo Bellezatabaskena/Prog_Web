@@ -70,8 +70,8 @@ background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, F
                                             <td scope="row"><?php echo $contador;?></td>
                                             <td scope="row"><?php echo $fila['nombre_area'];?></td>
                                             
-                                            <td scope="row"><a href="./View/editar.php?id=<?php echo $fila['id_area'];?>">Editar</a></td>
-                                            <td scope="row"><a href="./function/delete.php?id=<?php echo $fila['id_area'];?>">Eliminar</a></td>
+                                            <td scope="row"><a href="./View/editar.php?id=<?php echo $fila['id_area'];?>"class="btn btn-warning">Editar</a></td>
+                                            <td scope="row"><a href="./function/delete.php?id=<?php echo $fila['id_area'];?>"class="btn btn-danger">Eliminar</a></td>
                                         </tr>
                     <?php
                   $contador++; }?>

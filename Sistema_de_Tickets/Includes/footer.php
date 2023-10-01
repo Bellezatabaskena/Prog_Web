@@ -2,7 +2,7 @@
    <div class="row justify-content-center align-items-center g-2">
     <div class="col">
     <div class="row w-75 mx-auto  servicio-fila">
-    <div class="card text-center bg-info">
+    <div class="card text-center bg-primary">
   <div class="card-header">
     Por:
   </div>
